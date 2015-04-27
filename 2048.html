@@ -1,0 +1,39 @@
+<html>      
+<head>      
+<title>2048</title>      
+<meta charset="UTF-8" />    
+<link rel=stylesheet type=text/css href=2048.css />  
+<script src="2048.js"></script>    
+</head>      
+      
+<body onKeyDown='keypress(event);' onLoad='fillRandNo();fillRandNo();writeAllNum();'>    
+<!--<body>-->      
+<div class=frame >     
+<div class="smallframe pos00" ></div><div id='pos00'></div>
+<div class="smallframe pos10" ></div><div id='pos10'></div>
+<div class="smallframe pos20" ></div><div id='pos20'></div>
+<div class="smallframe pos30" ></div><div id='pos30'></div>
+<div class="smallframe pos01" ></div><div id='pos01'></div>
+<div class="smallframe pos11" ></div><div id='pos11'></div>
+<div class="smallframe pos21" ></div><div id='pos21'></div>
+<div class="smallframe pos31" ></div><div id='pos31'></div>
+<div class="smallframe pos02" ></div><div id='pos02'></div>
+<div class="smallframe pos12" ></div><div id='pos12'></div>
+<div class="smallframe pos22" ></div><div id='pos22'></div>
+<div class="smallframe pos32" ></div><div id='pos32'></div>
+<div class="smallframe pos03" ></div><div id='pos03'></div>
+<div class="smallframe pos13" ></div><div id='pos13'></div>
+<div class="smallframe pos23" ></div><div id='pos23'></div>
+<div class="smallframe pos33" ></div><div id='pos33'></div>
+</div>   
+<div class=instruction> 
+<p class=instruct_title>Instructions: </p>
+Use your arrow keys to move the tiles. 
+<br /> When two tiles with the same number touch, 
+<br /> they add up and merge into one! 
+<br /><br />
+<p class=instruct_title>Your Goal! </p>
+Join the numbers and get to the 2048 tile!
+</div>      
+</body>      
+</html>      
