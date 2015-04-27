@@ -1,0 +1,351 @@
+body {
+ text-shadow: 2px 2px 4px grey;
+}
+.instruction {
+ float: left;
+ color: black;
+ text-shadow: none;
+ margin-left: 100px;
+}
+.instruct_title {
+ font-weight: bold;
+ text-shadow: none;
+} 
+.frame {
+ background: grey;
+ border-radius: 20px;
+ width: 535px;
+ height: 535px;
+ float: left;
+}
+.smallframe {
+ background: silver;
+ border-radius: 5px;
+ width: 120px;
+ height: 120px;
+}
+.newnum1 {
+ animation: newnum1appear 250ms;
+ color: #FF8000;
+ font-size: 100px;
+ line-height: 120px;
+}
+.newnum2 { 
+ animation: newnum2appear 250ms;
+ color: #81F7D8;
+ font-size: 80px;
+ line-height: 120px;
+}
+.newnum3 {
+ animation: newnum3appear 250ms;
+ color: #82FA58;
+ font-size: 60px;
+ line-height: 120px;
+}
+.newnum4 {
+ animation: newnum4appear 250ms;
+ color: white;
+ font-size: 48px;
+ line-height: 120px;
+}
+.num1 {
+ color: #FF8000;
+ font-size: 100px;
+ line-height: 120px;
+}
+.num2 { 
+ color: #81F7D8;
+ font-size: 80px;
+ line-height: 120px;
+}
+.num3 {
+ color: #82FA58;
+ font-size: 60px;
+ line-height: 120px;
+}
+.num4 {
+ color: white;
+ font-size: 48px;
+ line-height: 120px;
+}
+.mvx01 {
+ animation: mvx0to1 250ms;
+}
+.mvx02 {
+ animation: mvx0to2 250ms;
+}
+.mvx03 {
+ animation: mvx0to3 250ms;
+}
+.mvx12 {
+ animation: mvx1to2 250ms;
+}
+.mvx13 {
+ animation: mvx1to3 250ms;
+}
+.mvx23 {
+ animation: mvx2to3 250ms;
+}
+.mvx10 {
+ animation: mvx1to0 250ms;
+}
+.mvx20 {
+ animation: mvx2to0 250ms;
+}
+.mvx30 {
+ animation: mvx3to0 250ms;
+}
+.mvx21 {
+ animation: mvx2to1 250ms;
+}
+.mvx31 {
+ animation: mvx3to1 250ms;
+}
+.mvx32 {
+ animation: mvx3to2 250ms;
+}
+.mvy01 {
+ animation: mvy0to1 250ms;
+}
+.mvy02 {
+ animation: mvy0to2 250ms;
+}
+.mvy03 {
+ animation: mvy0to3 250ms;
+}
+.mvy12 {
+ animation: mvy1to2 250ms;
+}
+.mvy13 {
+ animation: mvy1to3 250ms;
+}
+.mvy23 {
+ animation: mvy2to3 250ms;
+}
+.mvy10 {
+ animation: mvy1to0 250ms;
+}
+.mvy20 {
+ animation: mvy2to0 250ms;
+}
+.mvy30 {
+ animation: mvy3to0 250ms;
+}
+.mvy21 {
+ animation: mvy2to1 250ms;
+}
+.mvy31 {
+ animation: mvy3to1 250ms;
+}
+.mvy32 {
+ animation: mvy3to2 250ms;
+}
+.pos00 {
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ text-align: center;
+}
+.pos10 {
+ position: absolute;
+ top: 20px;
+ left: 150px;
+ text-align: center;
+}
+.pos20 {
+ position: absolute;
+ top: 20px;
+ left: 280px;
+ text-align: center;
+}
+.pos30 {
+ position: absolute;
+ top: 20px;
+ left: 410px;
+ text-align: center;
+}
+.pos01 {
+ position: absolute;
+ top: 150px;
+ left: 20px;
+ text-align: center;
+}
+.pos11 {
+ position: absolute;
+ top: 150px;
+ left: 150px;
+ text-align: center;
+}
+.pos21 {
+ position: absolute;
+ top: 150px;
+ left: 280px;
+ text-align: center;
+}
+.pos31 {
+ position: absolute;
+ top: 150px;
+ left: 410px;
+ text-align: center;
+}
+.pos02 {
+ position: absolute;
+ top: 280px;
+ left: 20px;
+ text-align: center;
+}
+.pos12 {
+ position: absolute;
+ top: 280px;
+ left: 150px;
+ text-align: center;
+}
+.pos22 {
+ position: absolute;
+ top: 280px;
+ left: 280px;
+ text-align: center;
+}
+.pos32 {
+ position: absolute;
+ top: 280px;
+ left: 410px;
+ text-align: center;
+}
+.pos03 {
+ position: absolute;
+ top: 410px;
+ left: 20px;
+ text-align: center;
+}
+.pos13 {
+ position: absolute;
+ top: 410px;
+ left: 150px;
+ text-align: center;
+}
+.pos23 {
+ position: absolute;
+ top: 410px;
+ left: 280px;
+ text-align: center;
+}
+.pos33 {
+ position: absolute;
+ top: 410px;
+ left: 410px;
+ text-align: center;
+}
+
+@keyframes newnum1appear {
+ from {font-size: 0px;}
+ to {font-size: 100px;}
+} 
+@keyframes newnum2appear {
+ from {font-size: 0px;}
+ to {font-size: 80px;}
+}
+@keyframes newnum3appear {
+ from {font-size: 0px;}
+ to {font-size: 60px;}
+}
+@keyframes newnum4appear {
+ from {font-size: 0px;}
+ to {font-size: 48px;}
+}
+@keyframes mvx0to1 {
+ from {left: 20px;}
+ to {left: 150px;}
+}
+@keyframes mvx0to2 {
+ from {left: 20px;}
+ to {left: 280px;}
+}
+@keyframes mvx0to3 {
+ from {left: 20px;}
+ to {left: 410px;}
+}
+@keyframes mvx1to2 {
+ from {left: 150px;}
+ to {left: 280px;}
+}
+@keyframes mvx1to3 {
+ from {left: 150px;}
+ to {left: 410px;}
+}
+@keyframes mvx2to3 {
+ from {left: 280px;}
+ to {left: 410px;}
+}
+@keyframes mvx1to0 {
+ from {left: 150px;}
+ to {left: 20px;}
+}
+@keyframes mvx2to0 {
+ from {left: 280px;}
+ to {left: 20px;}
+}
+@keyframes mvx3to0 {
+ from {left: 410px;}
+ to {left: 20px;}
+}
+@keyframes mvx2to1 {
+ from {left: 280px;}
+ to {left: 150px;}
+}
+@keyframes mvx3to1 {
+ from {left: 410px;}
+ to {left: 150px;}
+}
+@keyframes mvx3to2 {
+ from {left: 410px;}
+ to {left: 280px;}
+}
+@keyframes mvy0to1 {
+ from {top: 20px;}
+ to {top: 150px;}
+}
+@keyframes mvy0to2 {
+ from {top: 20px;}
+ to {top: 280px;}
+}
+@keyframes mvy0to3 {
+ from {top: 20px;}
+ to {top: 410px;}
+}
+@keyframes mvy1to2 {
+ from {top: 150px;}
+ to {top: 280px;}
+}
+@keyframes mvy1to3 {
+ from {top: 150px;}
+ to {top: 410px;}
+}
+@keyframes mvy2to3 {
+ from {top: 280px;}
+ to {top: 410px;}
+}
+@keyframes mvy1to0 {
+ from {top: 150px;}
+ to {top: 20px;}
+}
+@keyframes mvy2to0 {
+ from {top: 280px;}
+ to {top: 20px;}
+}
+@keyframes mvy3to0 {
+ from {top: 410px;}
+ to {top: 20px;}
+}
+@keyframes mvy2to1 {
+ from {top: 280px;}
+ to {top: 150px;}
+}
+@keyframes mvy3to1 {
+ from {top: 410px;}
+ to {top: 150px;}
+}
+@keyframes mvy3to2 {
+ from {top: 410px;}
+ to {top: 280px;}
+}
